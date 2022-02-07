@@ -1,0 +1,154 @@
+body {
+  background-color: #0b0d17;
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 130px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35;
+  margin: 0;
+  color: #d0d6f9;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #d0d6f9;
+}
+
+.logo {
+  position: absolute;
+  top: 64px;
+  left: 55px;
+}
+
+.nav-line {
+  background-color: #ffffff;
+  width: 425px;
+  height: 1px;
+  position: absolute;
+  left: 167px;
+  top: 88px;
+  opacity: 0.5;
+}
+
+.nav-bar {
+  background-color: rgba(255, 255, 255, 0.04);
+  opacity: 0.85;
+  width: 750px;
+  height: 90px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  backdrop-filter: blur(81.5485px);
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  margin: 37px 30px 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  padding-bottom: 35px;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #778899;
+}
+
+.destination-left-side {
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.topic {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #d0d6f9;
+  letter-spacing: 3px;
+}
+
+.numbre {
+  opacity: 0.25;
+  padding-right: 20px;
+}
+
+.destination-image {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 50px;
+  top: 80px;
+}
+
+.destination-right-side {
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  left: 700px;
+  top: 200px;
+}
+
+.sub-nav-link {
+  text-decoration: none;
+  color: #d0d6f9;
+  margin: 50px 30px 50px 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+}
+
+.sub-nav-link:hover {
+  border-bottom: 2px solid #778899;
+}
+
+.left-footer {
+  position: absolute;
+}
+
+.right-footer {
+  position: absolute;
+  left: 50%;
+}
+
+.activated {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
